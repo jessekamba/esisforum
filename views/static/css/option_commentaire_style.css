@@ -1,0 +1,46 @@
+.partie_comment{
+    position: fixed;
+    bottom: -20px;
+    width: 70%;
+}
+.partie_comment #input_partie_comment{
+    padding: 10px 80px 5px 5px;
+    resize: none;
+    width: 90%;
+    height: 90px;
+    box-shadow: 1px 0px 2px silver;
+    border: 1px solid silver;
+
+}
+.partie_comment input[type=submit]{
+    border: none;
+    background-color: rgb(115, 195, 250);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    left: 90%;
+    bottom: 40px;
+    border-radius: 5px;
+    text-align: initial;
+}
+.partie_comment input[type=submit]:hover{
+    background-color: rgb(137, 207, 253);
+}
+.commenter_no_connected p{
+    display: inline-block;
+    color: rgb(115, 195, 250);
+    padding: 5px;
+    border: 1px solid rgb(115, 195, 250);
+    background-color: white;
+    border-radius: 5px;
+}
+.commenter_no_connected:hover p{
+    border: 1px solid white;
+    background-color: rgb(115, 195, 250);
+    color: white;
+}
+.commenter_no_connected{
+    position: relative;
+    left: 43%;
+}

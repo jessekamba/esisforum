@@ -1,0 +1,16 @@
+.erreurs{
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+.greenERROR{
+    background-color:#00735a;
+}
+.redERROR{
+    background-color:#fa1f31;
+}

@@ -1,0 +1,46 @@
+.etat_question{
+    margin: 20px;
+}
+.commentateur h3{
+    display: inline-block;
+}
+.initials p{
+    display: inline-block;
+}
+.all_comments{
+    margin-left: 6%;
+    margin-right: 1%;
+}
+.question{
+    padding-bottom: 10px;
+    border-bottom: 1px solid silver;
+}
+.all_comments{
+    margin-top: 10px;
+}
+.comment{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 1px silver;
+    border-radius: 5px;
+}
+.footer_comment .date_comment{
+    margin-top: -15px;
+}
+.commentaire p{
+    margin-right: 6%; margin-left: 6%;
+    margin-top: 0px;
+}
+.etat_question a{
+    color: rgb(115, 195, 250);
+    border: 1px solid rgb(115, 195, 250);
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+.etat_question a:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(115, 195, 250);
+}

@@ -1,0 +1,56 @@
+.explication_new_disc, .new_discussion{
+    width: 50%;
+}
+.new_discussion{
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.new_discussion *{
+    display: block;
+}
+.new_discussion h3{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.new_discussion form{
+    margin-left: 23%;
+}
+.new_discussion > *{
+    margin-left: 20%;
+}
+.explication_new_disc p{
+    text-align: center;
+    font-size: 1em;
+}
+.explication_new_disc{
+    padding-top: 30%;
+}
+#contenu_field{
+    height: 150px;
+    width: 70%;
+    resize: none;
+    padding: 5px;
+    border: 1px solid rgb(180, 180, 180);
+}
+input[type=submit]{
+    border: none;
+    background-color: rgb(115, 195, 250);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: initial;
+    font-size: 1em;
+    margin-top: 10px;
+}
+#categorie{
+    font-size: 1em;
+    width: 71.8%;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: rgb(150, 150, 150);
+}
+option[value=categorie]{
+    color: rgb(50, 50, 50);
+}

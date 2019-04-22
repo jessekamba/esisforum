@@ -1,0 +1,56 @@
+.pop_up{
+    width: 30%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px silver;
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%)
+}
+.pop_up h3{
+    display: inline-block;
+    margin: 20px 20px 10px 8%;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+.pop_up div{
+    float: right;
+    height: 10px; width: 10px;
+    font-size: 30px;
+    color: rgb(238, 16, 16);
+    transform: rotate(45deg);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.pop_up p{
+    margin: 30px 20px;
+}
+.pop_up form input[type=password], 
+.pop_up form input[type=text]{
+    width: 80%; height: 25px;
+    margin: 5px 8%; padding: 2px 5px;
+    font-size: 15px;
+}
+.pop_up form input[type=submit]{
+    margin: 10px 8%;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(115, 195, 250);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.back_pop_up{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.4);
+    z-index: 100;
+    display: none;
+}
+.pop_up p a{
+    color: rgb(115, 195, 250);
+}
